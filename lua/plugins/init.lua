@@ -13,6 +13,8 @@ return {
     { import = "plugins.filetree"},
     -- statusline.lua
     { import = "plugins.statusline"},
+    -- git
+    { import = "plugins.git"},
 
     -- Single-file plugins
     {
