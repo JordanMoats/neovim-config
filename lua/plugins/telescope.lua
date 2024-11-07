@@ -20,7 +20,7 @@ return {
                         preview_cutoff = 120,
                     },
                     file_ignore_patterns = {
-                        "node_nodules",
+                        "node_modules",
                         ".git",
                     },
                 },
