@@ -12,5 +12,3 @@ opt.shiftwidth = 4 -- Number of spaces to use for autoindent
 opt.expandtab = true -- Expand tabs to spaces
 opt.termguicolors = true  -- True color support
 opt.clipboard = 'unnamedplus' -- Use system clipboard
-
-return {}  -- Return empty table for module system
