@@ -15,7 +15,7 @@ map('n', 'gr', vim.lsp.buf.references)               -- Show references
 map('n', 'gi', vim.lsp.buf.implementation)           -- Go to implementation
 map('n', '[d', vim.diagnostic.goto_prev)             -- Go to previous diagnostic
 map('n', ']d', vim.diagnostic.goto_next)             -- Go to next diagnostic
-map('n', '<leader>e', vim.diagnostic.open_float)     -- Show diagnostic error messages
+map('n', '<leader>o', vim.diagnostic.open_float)     -- Show diagnostic error messages
 map('n', '<leader>q', vim.diagnostic.setloclist)     -- Show all diagnostics in quickfix
 
 -- Telescope
