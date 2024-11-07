@@ -7,6 +7,12 @@ return {
     { import = "plugins.telescope" },
     -- LSP
     { import = "plugins.lsp" },
+    -- Completions
+    { import = "plugins.completions"},
+    -- File tree
+    { import = "plugins.filetree"},
+    -- statusline.lua
+    { import = "plugins.statusline"},
 
     -- Single-file plugins
     {
