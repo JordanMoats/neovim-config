@@ -18,8 +18,11 @@ map('n', ']d', vim.diagnostic.goto_next)             -- Go to next diagnostic
 map('n', '<leader>e', vim.diagnostic.open_float)     -- Show diagnostic error messages
 map('n', '<leader>q', vim.diagnostic.setloclist)     -- Show all diagnostics in quickfix
 
--- Telescope Keymaps
+-- Telescope
 map('n', '<leader>ff', '<cmd>Telescope find_files<cr>')
 map('n', '<leader>fg', '<cmd>Telescope live_grep<cr>')
 map('n', '<leader>fb', '<cmd>Telescope buffers<cr>')
 map('n', '<leader>fh', '<cmd>Telescope help_tags<cr>')
+
+-- filetree
+map('n', '<leader>e', ':Neotree toggle<CR>')

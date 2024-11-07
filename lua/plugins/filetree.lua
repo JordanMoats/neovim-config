@@ -16,9 +16,8 @@ return {
                         hide_gitignored = false,
                     },
                 },
+
             })
-            -- Add keybind to toggle file tree
-            vim.keymap.set('n', '<leader>e', ':Neotree toggle<CR>')  -- Toggle file explorer
         end
     }
 }

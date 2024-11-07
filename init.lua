@@ -21,7 +21,9 @@ require("config.keymaps")
 require("lazy").setup({ { import = "plugins" } })
 
 -- Set colorscheme with fallback
-local ok, _ = pcall(vim.cmd, "colorscheme tokyonight")
+local ok, _ = pcall(function()
+    vim.cmd.colorscheme("tokyonight")
+end)
 if not ok then
     vim.cmd("colorscheme default")
 end
