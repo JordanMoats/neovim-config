@@ -11,7 +11,6 @@ return {
         },
         config = function()
             local cmp = require('cmp')
-            
             cmp.setup({
                 snippet = {
                     expand = function(args)
@@ -25,6 +24,7 @@ return {
                     ['<CR>'] = cmp.mapping.confirm({ select = true }),
                     ['<C-d>'] = cmp.mapping.scroll_docs(4),
                     ['<C-u>'] = cmp.mapping.scroll_docs(-4),
+                    ['<C-e>'] = cmp.mapping.abort(),
                 }),
                 sources = cmp.config.sources({
                     { name = 'nvim_lsp' },
