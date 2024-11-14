@@ -18,6 +18,9 @@ return {
                 },
 
             })
+            -- Change the color of the pop up title bar
+            -- when creating a new file or directory
+            vim.cmd([[highlight NeoTreeTitleBar guifg=#ffffff]])
         end
     }
 }
