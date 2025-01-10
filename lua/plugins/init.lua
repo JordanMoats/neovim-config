@@ -15,6 +15,8 @@ return {
     { import = "plugins.statusline"},
     -- git
     { import = "plugins.git"},
+    -- toggleterm
+    { import = "plugins.toggleterm"},
 
     -- Single-file plugins
     {
