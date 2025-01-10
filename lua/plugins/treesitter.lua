@@ -13,6 +13,9 @@ return {
                     "svelte", "html", "css"
                 },
                 sync_install = false,
+                ignore_install = {}, -- List of parsers to ignore installing
+                auto_install = true, -- Automatically install missing parsers when entering buffer
+                modules = {}, -- Additional modules to load
 
                 highlight = {
                     enable = true,
