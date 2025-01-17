@@ -20,3 +20,12 @@ vim.api.nvim_create_autocmd({ "InsertEnter" }, {
         vim.opt.hlsearch = false
     end,
 })
+
+-- Add folding support
+opt.foldmethod = "expr"
+opt.foldexpr = "nvim_treesitter#foldexpr()"
+-- Disable folding to prevent closing all folds on file open
+opt.foldenable = false
+vim.api.nvim_create_autocmd({"BufReadPost", "FileReadPost"}, {
+  command = "normal zR"
+})
