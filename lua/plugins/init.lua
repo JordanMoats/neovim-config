@@ -17,8 +17,6 @@ return {
     { import = "plugins.git"},
     -- toggleterm
     { import = "plugins.toggleterm"},
-    -- vim-visual-multi
-    { import = "plugins.vim-visual-multi"},
 
     -- Single-file plugins
     {

@@ -1,4 +1,3 @@
--- lua/plugins/lsp/init.lua
 return {
     {
         "williamboman/mason.nvim",
